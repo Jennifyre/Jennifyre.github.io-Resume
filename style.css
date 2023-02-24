@@ -69,10 +69,10 @@ font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
 .contact a{
-    display: inline-block;
+    display: grid;
     position:relative;
-    padding-left: 25%;
     margin-bottom: 11px;
+    text-align: center;
 }
 /*--skills--*/
 .skills{
