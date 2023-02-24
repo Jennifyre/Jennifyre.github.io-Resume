@@ -1,23 +1,214 @@
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
     }
+/*--header--*/    
 .header{
     width: 100%;
-}   
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+}
 .header .header-text{
     color: white;
     width: 100%;
-    padding-left: 35%;
-    background-color: rgb(31, 28, 28);
+    text-align: center;
+    background-color: #333739;
+    padding-bottom: 1px;
+    padding-top: 1px;
 } 
+.header .header-text h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header .header-text p{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+/*--left side--*/
 .left-side{
     width: 30%;
-    background-color: aliceblue;
-}    
+    height:100%;
+    background-color: rgb(197, 204, 211);
+    position: relative;
+    margin-top: 0px;
+} 
+/*--contacts--*/
+.contact{
+    position: relative;
+    align-content: center;
+    margin-top: 54px;
+}
+.contact h2{
+    position: relative;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+.contact h4{
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.contact p{
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2px;
+    text-decoration: underline;
+}
+.contact a{
+    display: inline-block;
+    position:relative;
+    padding-left: 25%;
+    margin-bottom: 11px;
+}
+/*--skills--*/
+.skills{
+    margin-top: 20px;
+    position: relative;
+}
+.skills h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight:normal;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.grid{
+    margin-top: 1px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 
+ repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.grid-sk{
+    padding-top: 5px;
+}
+.grid .grid-sk p{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+.grid-sk span{
+    display: block;
+    width: 90%;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.grid-sk span::before{
+    position: absolute;
+    content: "";
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    top:20%;
+    border-radius: 10px;
+    
+}
+/*--certs--*/
+.certs{
+    margin-top: 20px;
+    margin-bottom: 81px;
+    position: relative;
+
+}
+.certs h2{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.certs p{
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+/*--right side--*/   
 .right-side{
     width: 70%;
-    background-color: rgb(216, 223, 218);
+    background-color: white;
+    position: relative;
 }
+.about{
+    position: relative; 
+}
+.about h2{
+    position: relative;
+    text-align: center;
+    font-weight:normal;
+    font-size: 30px;
+}
+.about p{
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+}
+.experience{
+    position: relative;
+}
+.experience h2{
+    position: relative;
+    text-align: center;
+    font-weight:normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.xp h3{
+    position: relative;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.xp li{
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+}
+/*--button--*/
+button{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #333739;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
 
 

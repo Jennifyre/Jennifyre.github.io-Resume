@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="header">
       <div class="header-text">
         <h1>Andrew Ramirez</h1>
-        <p>Junior Web Devolper</p>
+        <p>Junior Web Developer</p>
       </div>
     </div>        
     
@@ -18,54 +21,72 @@
       <!--HTML for the left side-->
       <div class="left-Side">
         <section class="contact">
-          <h3>CONTACT</h3>
-          <h5>Email</h5>
+          <h2>CONTACT</h2>
+          <h4>Email</h4>
           <p>aramire908@gmail.com</p>
-          <h5>Phone</h5>
+          <h4>Phone</h4>
           <p>(516) 366-8907</p>
-          <h5>Address</h5>
+          <h4>Address</h4>
           <p>3705 Symphony Lane, Murfreesboro, TN 37128</p>
-          <h5>Linkdin</h5>
-          <p>linkdin info</p>
+          <h4>Linkdin</h4>
+          <a target="_blank" href="https://www.linkedin.com/in/andrew-ramirez-189a4a210/">Andrew Ramirez</a>
+
         </section>
 
+        <hr>
+
         <div class="skills">
-          <h3>SKILLS</h3>
+          <h2>SKILLS</h2>
+          <div class="grid">
           <div class="grid-sk">
             <p>HTML</p>
+            <span></span>
           </div>
           <div class="grid-sk">
             <p>CSS</p>
+            <span></span>
           </div>
           <div class="grid-sk">
             <p>Javascript</p>
+            <span></span>
           </div>
           <div class="grid-sk">
             <p>GitHub</p>
+            <span></span>
           </div>
           <div class="grid-sk">
             <p>Heroku</p>
+            <span></span>
           </div>
         </div>
+        </div>
+        <hr>
         <section class="certs">
-          <h3>Certifications</h3>
+          <h2>Certifications</h2>
           <p>IPC-A-610</p>
           <p>IPC-J-STD</p>
           <p>Google Technical Support Fundamentals</p>
           <p>CodexAcademy Junior Web Dev</p>
+          <!--button-->
+          <button>Print Resume</button>
         </section>
       </div>
       
       <!--Html for the right side-->
       <div class="right-Side">
         <section class="about">
-          <h3>ABOUT ME</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error numquam sunt impedit, amet eveniet facilis? Nemo dolorum exercitationem vero saepe deserunt accusantium, odit non corrupti et adipisci! Numquam, saepe?</p>
+          <h2>ABOUT ME</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Non error numquam sunt impedit, amet eveniet 
+        facilis? Nemo dolorum exercitationem vero saepe deserunt 
+        accusantium, odit non corrupti et adipisci! Numquam, saepe?
+        </p>
         </section>
+        <hr>
         <section class="experience">
-          <h3>Experience</h3>
+          <h2>Experience</h2>
           <div class="xp">
-            <h4>Electronic assembler</h4>
+            <h3>Electronic assembler</h3>
             <ul>
               <li>
                 Soldering electrical components to PCB up to IPC standards
@@ -103,6 +124,7 @@
               </li>
             </ul>
         </section>
+        <hr>
         <section class="xp">
             <h3>Waypoint Gaming</h3>
             <ul>
@@ -116,6 +138,7 @@
                 </li>               
             </ul>
         </section>
+        <hr>
         <section class="xp">
             <h3>Sid Jacobson Jewish Community Center</h3>
             <ul>
@@ -125,6 +148,7 @@
                 <li> Kept areas where patrons gathered well maintained and clean.</li>
             </ul>
         </section>
+        <hr>
         <section class="xp">
           <h3>CodexAcademy</h3>
           <ul>
@@ -133,13 +157,9 @@
           <li>Deployed projects with efficacy</li>
         </ul>
         </section>
+        <hr>
       </div>
     </div>
-
-    <!--Button-->
-    <button></button>
-
-    
     <script src="app.js"></script>
   </body>
 </html>
